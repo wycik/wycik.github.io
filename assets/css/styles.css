@@ -160,8 +160,11 @@ body {
   }
 
   .top-bar{
-    height:50px;
+    height:40px;
   }
+  
+  
+  
 
 
   @media (max-width: 767px) {
@@ -172,5 +175,15 @@ body {
     .front-card{
       height: 185px;
       overflow: auto;
+    }
+    .top-bar{
+      height:55px;
+    }
+    .top-text{
+      font-size: 12px;
+    }
+    .d-flex>img{
+      width:25px;
+      height:25px;
     }
   }
