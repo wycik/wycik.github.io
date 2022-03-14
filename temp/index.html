@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="assets/vendors/font-awesome/css/all.min.css">
     <link href="assets/vendors/aos/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.4.0/css/lightgallery-bundle.min.css" integrity="sha512-91yJwfiGTCo9TM74ZzlAIAN4Eh5EWHpQJUfvo/XhpH6lzQtiRFkFRW1W+JSg4ch4XW3/xzh+dY4TOw/ILpavQA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <script src="assets/vendors/jquery/jquery.min.js"></script>
+   
     <script src="assets/js/loader.js"></script>
 </head>
 <body>
@@ -32,19 +36,17 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="education/">Education</a>
-                        </li>
-
-                        <li class="nav-item">
                             <a class="nav-link" href="Officials/">Officials</a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="phones/">Phones</a>
                         </li>
-                        
-                      
-                        
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="education/">Education</a>
+                        </li>
+
                     </ul>
                     <ul class="navbar-nav mt-2 mt-lg-0">
                         <li class="nav-item">
@@ -64,8 +66,13 @@
                                    <div class="carousel-content-btns">
                                        <a href="https://wycik.github.io/"> <img src="assets/images/app-store-btn.svg" alt="carousel-img" class="img-fluid" width="200px"></a>
                                        <a href="https://wycik.github.io/"> <img src="assets/images/play-store-btn.svg" alt="carousel-img" class="img-fluid" width="200px"></a>
-                                       <a href="https://wycik.github.io/"> <img src="assets/images/play.svg" alt="carousel-img" class="img-fluid" width="200px"></a>
+                                      
+                                       <a href="https://www.youtube.com/watch?v=VyeyW5HdUWk" data-toggle="lightbox"><img src="assets/images/play.svg" alt="carousel-img" class="img-fluid" style="padding:20px" width="80px">
+                                       </a>
                                     </div>
+
+                                    
+                                    
                                </div>
                                <div class="col-md-6 carousel-img-wrapper">
                                    <img src="assets/images/main-screen.png" alt="carousel-img" class="img-fluid" width="350px">
@@ -130,6 +137,25 @@
         AOS.init({
             duration: 2000
         });
+        
       </script>
+    <!--Ekko Lightbox-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+    <script>
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+          event.preventDefault();
+          $(this).ekkoLightbox({wrapping: false});
+        });
+    </script>
+    <script>
+        $('img[data-toggle="lightbox"],img.thickbox').each(function(){
+            if (!$(this).attr("data-remote")){
+            $(this).attr("data-remote", $(this).attr("src")).css("cursor", "pointer");
+            }
+        });
+    </script>
+    <!--/Ekko Lightbox-->
+
 </body>
 </html>

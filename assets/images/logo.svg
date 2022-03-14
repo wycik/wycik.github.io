@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32mm"
+   height="32mm"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="w1.svg"
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="0.49709596"
+     inkscape:cx="405.35433"
+     inkscape:cy="560.254"
+     inkscape:window-width="1440"
+     inkscape:window-height="787"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     width="100mm">
+    <inkscape:grid
+       type="xygrid"
+       id="grid14847" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#f3b400;fill-opacity:1;fill-rule:evenodd;stroke-width:0.0657864"
+       id="rect1337"
+       width="31.826221"
+       height="31.82622"
+       x="-31.575686"
+       y="-31.923363"
+       transform="rotate(179.68629)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:25.7108px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0618046"
+       x="1.962245"
+       y="27.017639"
+       id="text12406"
+       transform="scale(1.0401873,0.96136532)"><tspan
+         sodipodi:role="line"
+         id="tspan12404"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.7108px;font-family:Rawline;-inkscape-font-specification:Rawline;stroke-width:0.0618046"
+         x="1.962245"
+         y="27.017639">W</tspan></text>
+  </g>
+</svg>
