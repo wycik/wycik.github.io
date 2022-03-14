@@ -7942,4 +7942,11 @@ label {
   .edica-header.edica-landing-header .carousel-content-wrapper h1 {
     margin-bottom: 300px;
 }
+
+
+element.style {
+}
+.edica-header.edica-landing-header .carousel-img-wrapper {
+  padding-top: 10px;
+}
 /*# sourceMappingURL=style.css.map */
