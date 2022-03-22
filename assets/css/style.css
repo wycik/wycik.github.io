@@ -7948,9 +7948,15 @@ label {
 }
 /*# sourceMappingURL=style.css.map */
 
+.edica-header.edica-landing-header .carousel-content-wrapper {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  justify-content: flex-start;
+}
+
 @media (max-width: 767px) {
 
-  .edica-header.edica-landing-header .carousel-content-wrapper h1 {
+  .edica-header.edica-landing-header .carousel-content-wrapper h3 {
     margin-bottom: 10px;
 }
 
@@ -7958,4 +7964,7 @@ label {
 .edica-header.edica-landing-header .carousel-img-wrapper {
   padding-top: 10px;
 }
+
+
 }
+
